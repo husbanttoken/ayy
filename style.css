@@ -1,0 +1,86 @@
+body {
+    background-color: #131313;
+    background-image: url('./imgs/dancing-alien.gif');
+    /* background-image: url(/img/); */
+    /* background-size: 8px; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* background-size: 100% auto;    */
+    background-repeat: repeat;
+    color: rgb(57, 219, 57);
+    font-family: Arial, SANS-SERIF;
+    font-size: 2em;
+    animation: fade-in 2s;
+    /* text-shadow: -0.06em 0 0.5px rgba(255, 200, 100, 0.9); */
+    max-width: 48em;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: fixed;
+  }
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+} 
+#links {
+  float: left;
+  width: 35%
+  /* background-position: center center */
+
+}
+#ayy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 50%;
+
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #rgb(57, 219, 57), 0 0 40px #e60073, 0 0 50px rgb(57, 219, 57), 0 0 60px rgb(57, 219, 57), 0 0 70px rgb(57, 219, 57);
+    }
+    to {
+      text-shadow: 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073, 0 0 80px #e60073;
+    }
+  }
+
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+  }
+
+  #links, #scroll {
+    color: #fff;
+    text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #008d15,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+  }
+  
+  /* Additional styling */
+    
+  /* body {
+    font-size: 18px;
+    font-family: "Vibur", sans-serif;
+    background-color: #010a01;
+  }   */
+  
+  /* h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  } */
